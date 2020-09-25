@@ -1,5 +1,6 @@
 #!/bin/bash
-cd '/mnt/e/Users/Test/Desktop/remix os/python_scraper/scraped'
+githubfolder='/mnt/e/Users/Test/Desktop/remix os/python_scraper/scraped'
+cd "$githubfolder"
 stackfolder="/mnt/c/Users/Test/stack/compilations"
 allMp4=$(find . -iname "*.mp4" -print)
 echo "$allMp4"
@@ -9,5 +10,4 @@ for mp4 in ${allMp4[@]}; do
     sudo mv "$from" "$to" -f
 done
 
-sudo rm -rf .
-
+sudo rm -rf 
