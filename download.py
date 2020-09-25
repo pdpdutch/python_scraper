@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import sys
 import asyncio
 import random
@@ -128,6 +129,8 @@ async def main():
     await mergeFiles()
     chdir(HOME_DIR)
 =======
+=======
+>>>>>>> parent of 24ae7d8... first version done
 import sys, requests, random, string,json
 from os import mkdir, chdir,listdir
 
@@ -178,5 +181,9 @@ def writeFiles():
 def main():
   return 0
 
+<<<<<<< HEAD
+main()
+>>>>>>> parent of 24ae7d8... first version done
+=======
 main()
 >>>>>>> parent of 24ae7d8... first version done
