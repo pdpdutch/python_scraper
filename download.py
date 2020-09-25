@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import sys
 import asyncio
 import random
@@ -134,6 +135,8 @@ async def main():
 >>>>>>> parent of 24ae7d8... first version done
 =======
 >>>>>>> parent of 24ae7d8... first version done
+=======
+>>>>>>> parent of 24ae7d8... first version done
 import sys, requests, random, string,json
 from os import mkdir, chdir,listdir
 
@@ -186,6 +189,10 @@ def main():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+main()
+>>>>>>> parent of 24ae7d8... first version done
+=======
 main()
 >>>>>>> parent of 24ae7d8... first version done
 =======
