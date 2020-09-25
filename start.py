@@ -3,13 +3,13 @@ import asyncio, os, shutil, click
 from consolemenu import *
 from consolemenu.items import *
 
-# Create the menu
-menu = ConsoleMenu("Do you want to delete the old scraped folder?", "(1) Yes or (0) No")
+# # Create the menu
+# menu = ConsoleMenu("Do you want to delete the old scraped folder?", "(1) Yes or (0) No")
 
-# Create some items
+# # Create some items
 
-delete = False
-# MenuItem is the base class for all items, it doesn't do anything when selected
+# delete = False
+# # MenuItem is the base class for all items, it doesn't do anything when selected
 
 def setDelete(i):
     global delete
@@ -18,22 +18,23 @@ def setDelete(i):
     else:
         delete = False
 
-# A FunctionItem runs a Python function when selected
-function_item1 = MenuItem("Delete the old scraped folder", should_exit=True)
-function_item2 = MenuItem("Don't delete the old scraped folder", should_exit=True)
+# # A FunctionItem runs a Python function when selected
+# function_item1 = MenuItem("Delete the old scraped folder", should_exit=True)
+# function_item2 = MenuItem("Don't delete the old scraped folder", should_exit=True)
 
 
 
-# Once we're done creating them, we just add the items to the menu
-menu.append_item(function_item1)
-menu.append_item(function_item2)
+# # Once we're done creating them, we just add the items to the menu
+# menu.append_item(function_item1)
+# menu.append_item(function_item2)
 
-# Finally, we call show to show the menu and allow the user to interact
-menu.show()
+# # Finally, we call show to show the menu and allow the user to interact
+# menu.show()
 
-option = menu.selected_option
+# option = menu.selected_option
 
-setDelete(option)
+# setDelete(option)
+setDelete(1)
 
 
 
